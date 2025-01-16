@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <h1>Welcome to My Portfolio</h1>
+        <img src="https://via.placeholder.com/300" alt="Profile Picture">
+        <p>Hi, I'm John Doe, a passionate web developer. I specialize in front-end development, creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <img src="https://via.placeholder.com/400x200" alt="Portfolio Website Screenshot">
+            <p>A modern and responsive portfolio website. <a href="#">View details</a></p>
+        </div>
+        <div class="project">
+            <h3>E-commerce Store</h3>
+            <img src="https://via.placeholder.com/400x200" alt="E-commerce Store Screenshot">
+            <p>An online store with payment integration and product catalog. <a href="#">View details</a></p>
+        </div>
+        <div class="project">
+            <h3>Blog Platform</h3>
+            <img src="https://via.placeholder.com/400x200" alt="Blog Platform Screenshot">
+            <p>A blogging platform with user authentication and content management. <a href="#">View details</a></p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 John Doe. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
